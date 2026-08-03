@@ -30,7 +30,7 @@ Open `src/greeting.js`. Git inserted markers:
 
 ```js
 <<<<<<< HEAD
-  return `Hi there, ${name}!`;        // the version on main
+  return `Hello there, ${name}!`;     // the version on main
 =======
   return `¡Hola, ${name}!`;           // the version from feature/spanish-greeting
 >>>>>>> feature/spanish-greeting
