@@ -1,0 +1,12 @@
+{
+  "name": "git-training-sample-app",
+  "version": "1.0.0",
+  "description": "A tiny sample app used for the NPT git & GitHub training.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
