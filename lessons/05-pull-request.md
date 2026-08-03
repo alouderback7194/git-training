@@ -22,7 +22,7 @@ reviewer.
 
 > ⚠️ **Fork gotcha — set the base repository to *your* fork.** When you open a PR from
 > a fork, GitHub often defaults the **base repository** to the original
-> (`nptrust/git-training`). Change the **base repository** dropdown to
+> (`alouderback7194/git-training`). Change the **base repository** dropdown to
 > **`YOUR-USERNAME/git-training`** so your PR stays inside your own copy. You want:
 > base repo = your fork, base = `main` ← compare = your feature branch.
 

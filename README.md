@@ -65,7 +65,7 @@ works out of the box with Node 18+.
 
 You'll start by **forking** this repo (Lesson 00), so throughout these lessons
 `origin` refers to **your own fork** on GitHub — the copy you push to and open PRs
-against. The original shared repo (`nptrust/git-training`) is optionally added as a
+against. The trainer's shared repo (`alouderback7194/git-training`) is optionally added as a
 second remote named `upstream`, which you can pull updates from. `main` is the primary
 branch you integrate finished work into.
 

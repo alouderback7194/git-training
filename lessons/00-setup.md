@@ -16,7 +16,7 @@ A **fork** is your own personal copy of a repository under your GitHub account. 
 push, branch, merge, and make PRs in your fork without touching anyone else's work —
 perfect for a training sandbox.
 
-1. Go to <https://github.com/nptrust/git-training>.
+1. Go to <https://github.com/alouderback7194/git-training>.
 2. Click **Fork** (top-right) → **Create fork**.
 3. GitHub creates **`YOUR-USERNAME/git-training`** — a full copy, including all the
    demo branches you'll use in later lessons.
@@ -52,7 +52,7 @@ Your fork's remote is called `origin`. If you also want to pull in updates that 
 trainer makes to the original repo, add it as a second remote named `upstream`:
 
 ```bash
-git remote add upstream https://github.com/nptrust/git-training.git
+git remote add upstream https://github.com/alouderback7194/git-training.git
 git remote -v          # origin = your fork, upstream = the original
 ```
 
