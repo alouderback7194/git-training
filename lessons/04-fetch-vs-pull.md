@@ -78,4 +78,4 @@ from `upstream`, then `push` to `origin`.
 
 ## Next
 
-➡️ [Lesson 05 – Making a Pull Request](05-pull-request.md)
+➡️ [Lesson 05 – Ignoring files with .gitignore](05-gitignore.md)

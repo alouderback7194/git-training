@@ -31,7 +31,7 @@ Continuing with the commit you made in Lesson 02:
    ```bash
    git push -u origin playground/<your-name>
    ```
-2. Git prints a link to open a Pull Request — don't click it yet, that's Lesson 05.
+2. Git prints a link to open a Pull Request — don't click it yet, that's Lesson 08.
 3. Make another small edit, commit it, and push again — this time plain `git push` works:
    ```bash
    git add .

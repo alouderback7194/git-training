@@ -8,9 +8,9 @@ repo by forking it.**
 - **Git** — check with `git --version`. If missing, install from <https://git-scm.com/downloads>.
 - **A GitHub account** — you'll need one to fork the repo in the next step.
 - **VS Code** (recommended) with these extensions:
-  - **GitHub Copilot** — for the code-review exercise (Lesson 11).
-  - **GitHub Pull Requests** — create and review PRs without leaving the editor (Lessons 05–06).
-  - **GitLens** *(optional)* — adds the interactive-rebase / squash UI that VS Code lacks (Lessons 08–09).
+  - **GitHub Copilot** — for the code-review exercise (Lesson 14).
+  - **GitHub Pull Requests** — create and review PRs without leaving the editor (Lessons 08–09).
+  - **GitLens** *(optional)* — adds the interactive-rebase / squash UI that VS Code lacks (Lessons 11–12).
 - **Node.js 18+** (optional) — only needed if you want to run the sample app (`npm start`).
 
 ## 2. Fork the repository (your Step 0!)

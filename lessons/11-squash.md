@@ -1,4 +1,4 @@
-# Lesson 08 – When to use squash
+# Lesson 11 – When to use squash
 
 **Squashing** combines several commits into one. It's about keeping history *readable*:
 a feature that took 8 messy "wip", "fix typo", "oops" commits can land on `main` as a
@@ -44,7 +44,7 @@ build one small feature (a `titleCase` helper).
    ```
    You'll see commits like *"wip"*, *"fix typo"*, *"actually fix it"* — noise.
 2. Push it and open a PR (base `main` ← compare `feature/squash-me`). Remember the
-   fork gotcha from Lesson 05: set the **base repository** to your own fork.
+   fork gotcha from Lesson 08: set the **base repository** to your own fork.
    ```bash
    git push -u origin feature/squash-me
    ```
@@ -61,4 +61,4 @@ build one small feature (a `titleCase` helper).
 
 ## Next
 
-➡️ [Lesson 09 – Rebase](09-rebase.md)
+➡️ [Lesson 12 – Rebase](12-rebase.md)

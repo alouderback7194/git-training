@@ -1,4 +1,4 @@
-# Lesson 11 – Reviewing code with GitHub Copilot
+# Lesson 14 – Reviewing code with GitHub Copilot
 
 GitHub Copilot can act as an automated **code reviewer**. It reads a pull request (or
 your working changes) and suggests bugs, edge cases, and improvements — a helpful first
@@ -34,7 +34,7 @@ missing edge case, a subtle bug, and a naming nit — perfect fodder for a revie
    git switch feature/copilot-review
    git push -u origin feature/copilot-review
    ```
-   Open a PR: base `main` ← compare `feature/copilot-review`. (As in Lesson 05, make
+   Open a PR: base `main` ← compare `feature/copilot-review`. (As in Lesson 08, make
    sure the **base repository** is your own fork.)
 2. Add **Copilot** as a reviewer (Reviewers box).
 3. Wait for Copilot's comments, then discuss as a group:

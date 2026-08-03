@@ -1,4 +1,4 @@
-# Lesson 05 – Making a Pull Request
+# Lesson 08 – Making a Pull Request
 
 A **Pull Request** (PR) is a GitHub feature — not a git command. It proposes merging
 one branch into another and gives your team a place to review, discuss, and approve
@@ -10,7 +10,7 @@ the change before it lands on `main`.
 2. Open a PR on GitHub: base = `main`, compare = your branch.
 3. Teammates review and comment.
 4. Address feedback with more commits (just push again — the PR updates automatically).
-5. Merge (Lesson 06).
+5. Merge (Lesson 09).
 
 ## How to open a PR
 
@@ -50,10 +50,10 @@ greeting to the sample app. Use it to open your first PR.
    - **base:** `main`  ←  **compare:** `feature/add-greeting`
 3. Look at the **Files changed** tab — this is what reviewers see.
 4. Write a description like: *"Adds a friendly, name-aware greeting to the app."*
-5. Create the PR (leave it open — Lesson 06 merges it).
+5. Create the PR (leave it open — Lesson 09 merges it).
 
 > **Tip.** Small PRs get reviewed faster and more thoroughly than giant ones.
 
 ## Next
 
-➡️ [Lesson 06 – Merging a feature branch](06-merge-feature.md)
+➡️ [Lesson 09 – Merging a feature branch](09-merge-feature.md)

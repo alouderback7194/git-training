@@ -1,4 +1,4 @@
-# Lesson 07 – Merge conflicts & resolution
+# Lesson 10 – Merge conflicts & resolution
 
 A **merge conflict** happens when two branches change the *same lines* of the *same
 file* in different ways. Git can't decide which version is right, so it stops and asks
@@ -79,4 +79,4 @@ VS Code makes conflict resolution visual — often easier than editing markers b
 
 ## Next
 
-➡️ [Lesson 08 – When to use squash](08-squash.md)
+➡️ [Lesson 11 – When to use squash](11-squash.md)

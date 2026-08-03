@@ -1,4 +1,4 @@
-# Lesson 09 – Rebase
+# Lesson 12 – Rebase
 
 **Rebasing** moves your branch so it starts from the *latest* tip of another branch
 (usually `main`). Instead of merging `main` into your branch, you replay *your* commits
@@ -35,7 +35,7 @@ pushed, you'll need `git push --force-with-lease`.
 
 - **Command Palette:** `Git: Rebase Branch…` → choose the branch/ref to replay onto
   (e.g. `origin/main`).
-- Conflicts open in the same **Merge Editor** as Lesson 07; resolve and stage them, and
+- Conflicts open in the same **Merge Editor** as Lesson 10; resolve and stage them, and
   VS Code continues the rebase (or use the **Continue** prompt it shows).
 - **Interactive rebase** (reorder/squash/edit commits) isn't built in — use the
   **GitLens** Interactive Rebase editor, or `git rebase -i` on the CLI.
@@ -58,7 +58,7 @@ moved ahead of it. We'll rebase it onto the current `main`.
    ```bash
    git rebase origin/main
    ```
-3. If a conflict appears, resolve it like Lesson 07, then:
+3. If a conflict appears, resolve it like Lesson 10, then:
    ```bash
    git add <file>
    git rebase --continue
@@ -75,4 +75,4 @@ moved ahead of it. We'll rebase it onto the current `main`.
 
 ## Next
 
-➡️ [Lesson 10 – Deleting a branch](10-delete-branch.md)
+➡️ [Lesson 13 – Deleting a branch](13-delete-branch.md)

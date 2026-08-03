@@ -1,4 +1,4 @@
-# Lesson 10 – Deleting a branch (local & remote)
+# Lesson 13 – Deleting a branch (local & remote)
 
 Once a feature branch is merged, it has done its job. Deleting it keeps the branch list
 tidy. A branch lives in **two places** — your computer (local) and GitHub (remote) — so
@@ -43,7 +43,7 @@ branch. The **Branches** page also has a trash icon next to each branch.
 
 ## Exercise
 
-Use the branch you merged back in Lesson 06 (`feature/add-greeting`).
+Use the branch you merged back in Lesson 09 (`feature/add-greeting`).
 
 1. Switch off the branch first (you can't delete the branch you're standing on):
    ```bash
@@ -66,4 +66,4 @@ Use the branch you merged back in Lesson 06 (`feature/add-greeting`).
 
 ## Next
 
-➡️ [Lesson 11 – Code review with Copilot](11-copilot-review.md)
+➡️ [Lesson 14 – Code review with Copilot](14-copilot-review.md)

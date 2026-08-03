@@ -41,13 +41,16 @@ files (editing, committing, merging, resolving conflicts, and reviewing code).
 | 02 | [Committing a change](lessons/02-commit.md) | Staging & committing |
 | 03 | [Pushing a change](lessons/03-push.md) | Sending commits to GitHub |
 | 04 | [Fetch vs. Pull](lessons/04-fetch-vs-pull.md) | Getting others' changes |
-| 05 | [Making a Pull Request](lessons/05-pull-request.md) | Proposing changes |
-| 06 | [Merging a feature branch](lessons/06-merge-feature.md) | Integrating work |
-| 07 | [Merge conflicts](lessons/07-merge-conflicts.md) | Resolving conflicts |
-| 08 | [When to use squash](lessons/08-squash.md) | Tidying history |
-| 09 | [Rebase](lessons/09-rebase.md) | Replaying commits |
-| 10 | [Deleting a branch](lessons/10-delete-branch.md) | Cleanup, local & remote |
-| 11 | [Code review with Copilot](lessons/11-copilot-review.md) | AI-assisted review |
+| 05 | [Ignoring files](lessons/05-gitignore.md) | What *not* to commit (`.gitignore`) |
+| 06 | [Stashing work](lessons/06-stash.md) | Shelving changes temporarily |
+| 07 | [Undoing & fixing mistakes](lessons/07-fixing-mistakes.md) | restore, amend, revert, reset, reflog |
+| 08 | [Making a Pull Request](lessons/08-pull-request.md) | Proposing changes |
+| 09 | [Merging a feature branch](lessons/09-merge-feature.md) | Integrating work |
+| 10 | [Merge conflicts](lessons/10-merge-conflicts.md) | Resolving conflicts |
+| 11 | [When to use squash](lessons/11-squash.md) | Tidying history |
+| 12 | [Rebase](lessons/12-rebase.md) | Replaying commits |
+| 13 | [Deleting a branch](lessons/13-delete-branch.md) | Cleanup, local & remote |
+| 14 | [Code review with Copilot](lessons/14-copilot-review.md) | AI-assisted review |
 
 ---
 
