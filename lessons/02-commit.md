@@ -22,6 +22,19 @@ git log --oneline -3       # see your commit at the top
 - Short summary line (~50 chars), written as a command: *"Add title-case helper"*.
 - Optional blank line + more detail explaining **why**, not just what.
 
+### In VS Code
+
+Open the **Source Control** panel (`Ctrl/Cmd+Shift+G`, or the branch icon in the
+Activity Bar on the left).
+
+1. Changed files appear under **Changes**. Click any file to see the diff.
+2. Hover a file and click **+** to stage it — or click **+** on the **Changes** header
+   to *Stage All Changes*.
+3. Type your message in the box at the top, then click **✓ Commit** (or press
+   `Ctrl/Cmd+Enter`).
+
+**Command Palette:** `Git: Stage All Changes`, `Git: Commit`.
+
 ## Exercise
 
 1. Make sure you're on your own branch (from Lesson 01) so you don't edit `main` directly:

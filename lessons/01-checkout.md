@@ -17,6 +17,14 @@ git switch -c my-new-branch       # modern equivalent
 > `git switch` is the newer, clearer command for changing branches; `git checkout`
 > still works and does the same thing (plus more). Use whichever your team prefers.
 
+### In VS Code
+
+- **Status bar (fastest):** the current branch name shows at the **bottom-left**. Click
+  it to open a branch picker — choose a branch to check out, or **+ Create new branch…**.
+- **Command Palette** (`Ctrl/Cmd+Shift+P`):
+  - `Git: Checkout to…` — switch to an existing local or remote branch.
+  - `Git: Create Branch…` — create a new branch and switch to it.
+
 ## Exercise
 
 This repo ships with several demo branches. Let's move between them.

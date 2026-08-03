@@ -62,8 +62,20 @@ Open `src/greeting.js`. Git inserted markers:
 > **Bail out.** Made a mess mid-merge? `git merge --abort` returns you to exactly
 > where you were before the merge.
 
-> **Tip.** VS Code shows conflicts with **Accept Current / Accept Incoming / Accept
-> Both** buttons above each conflict — often easier than editing the markers by hand.
+### In VS Code
+
+VS Code makes conflict resolution visual — often easier than editing markers by hand:
+
+- Conflicted files appear in **Source Control** under a **Merge Changes** group.
+- Open the file: each conflict shows CodeLens buttons — **Accept Current Change**,
+  **Accept Incoming Change**, **Accept Both Changes**, and **Compare Changes** — right
+  above the markers.
+- For a side-by-side view, click **Resolve in Merge Editor**: *Current* (yours) on the
+  left, *Incoming* (theirs) on the right, and the editable **Result** at the bottom.
+  Tick the changes you want, tweak the Result, then click **Complete Merge**.
+- Once every conflict is resolved, **stage** the file(s) and **commit** in the Source
+  Control panel to finish the merge — the equivalent of the `git add` + `git commit`
+  above.
 
 ## Next
 

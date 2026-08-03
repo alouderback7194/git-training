@@ -29,6 +29,13 @@ git push                         # publish the merged main
 If the branches haven't diverged, git does a **fast-forward** (just moves the pointer).
 If both branches have new commits, git makes a **merge commit**.
 
+### In VS Code
+
+- **Command Palette:** `Git: Merge Branch…` → pick the branch to merge **into your
+  current branch**. (So check out `main` first, then merge in `feature/add-greeting`.)
+- When the work is in a PR, the **Merge** button on the PR — on the GitHub website or
+  in the **GitHub Pull Requests** extension — is still the usual way to merge.
+
 ## Exercise
 
 Continuing from the PR you opened in Lesson 05:

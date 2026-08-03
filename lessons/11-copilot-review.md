@@ -17,6 +17,8 @@ pass before a human reviews.
 2. Use **Copilot → Review changes** (or the "Generate" / review action in the Copilot
    Chat panel) to get feedback on your working diff.
 3. Or ask Copilot Chat directly: *"Review src/calculator.js for bugs and edge cases."*
+4. **Command Palette** (`Ctrl/Cmd+Shift+P`): recent versions list a
+   `GitHub Copilot: Review and Comment` command that reviews the current file or diff.
 
 > Treat Copilot's review as a *suggestion*, not gospel. You decide what to accept.
 

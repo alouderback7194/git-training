@@ -32,6 +32,17 @@ git status                    # "your branch is behind origin/main by 3 commits"
 git pull                      # integrate when you're ready
 ```
 
+### In VS Code
+
+- **Fetch (safe):** Source Control **`⋯` menu → Fetch**, or Command Palette
+  `Git: Fetch`. After fetching, the status-bar sync icon shows **↓ n** commits waiting
+  to come in (and **↑ n** waiting to push).
+- **Pull:** **`⋯` menu → Pull**, or `Git: Pull`. The **🔄 sync** button does a pull
+  **and** push in one click.
+- **Pull from a specific remote** (e.g. `upstream`): Command Palette `Git: Pull from…`,
+  then pick the remote and branch.
+- **Prune branches deleted on the remote:** `Git: Fetch (Prune)`.
+
 ## Exercise
 
 1. Fetch without changing anything:

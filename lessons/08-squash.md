@@ -22,6 +22,15 @@ On a PR, choose **Squash and merge**. GitHub collapses every commit on the branc
 one commit on `main` and lets you edit the final message. This is the most common way
 teams squash — no command line needed.
 
+### In VS Code
+
+Squashing is one place VS Code's built-in git UI falls short — there's **no native
+command** for interactive rebase/squash. Two good options:
+
+- **Easiest — do it on GitHub:** the **Squash and merge** button on the PR (below).
+- **GitLens extension:** provides an **Interactive Rebase** editor where you drag
+  commits and mark them `squash`/`fixup` — the `git rebase -i` experience in a GUI.
+
 ## Exercise
 
 The demo branch `feature/squash-me` deliberately contains several noisy commits that

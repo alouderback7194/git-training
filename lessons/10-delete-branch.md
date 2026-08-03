@@ -33,6 +33,14 @@ git fetch --prune        # remove local references to branches deleted on the re
 On GitHub, a merged PR shows a **Delete branch** button — one click removes the remote
 branch. The **Branches** page also has a trash icon next to each branch.
 
+### In VS Code
+
+- **Delete a *local* branch — Command Palette:** `Git: Delete Branch…` → pick the
+  branch. (Switch off it first — you can't delete the branch you're on.)
+- **Prune stale remote-tracking branches:** `Git: Fetch (Prune)`.
+- **Deleting the *remote* branch** isn't a built-in command — use the GitHub website's
+  **Delete branch** button, the **GitLens** extension, or the CLI command above.
+
 ## Exercise
 
 Use the branch you merged back in Lesson 06 (`feature/add-greeting`).

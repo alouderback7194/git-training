@@ -7,7 +7,10 @@ repo by forking it.**
 
 - **Git** — check with `git --version`. If missing, install from <https://git-scm.com/downloads>.
 - **A GitHub account** — you'll need one to fork the repo in the next step.
-- **VS Code** (recommended) with the **GitHub Copilot** extension for Lesson 11.
+- **VS Code** (recommended) with these extensions:
+  - **GitHub Copilot** — for the code-review exercise (Lesson 11).
+  - **GitHub Pull Requests** — create and review PRs without leaving the editor (Lessons 05–06).
+  - **GitLens** *(optional)* — adds the interactive-rebase / squash UI that VS Code lacks (Lessons 08–09).
 - **Node.js 18+** (optional) — only needed if you want to run the sample app (`npm start`).
 
 ## 2. Fork the repository (your Step 0!)
@@ -67,6 +70,18 @@ git branch            # list local branches
 git branch -r         # list remote branches (the demo branches live here)
 git log --oneline -5  # recent history
 ```
+
+## 7. VS Code essentials (if you'd rather click than type)
+
+Every lesson shows the CLI command **and** an **"In VS Code"** section. Three UI spots
+do almost everything:
+
+- **Source Control panel** — `Ctrl/Cmd+Shift+G`, or the branch icon in the Activity
+  Bar. Stage, commit, push, pull, and resolve conflicts here.
+- **Command Palette** — `Ctrl/Cmd+Shift+P`, then type `Git:` to see every git command
+  (checkout, merge, rebase, fetch, …).
+- **Status bar** — bottom-left shows your **current branch** (click to switch/create)
+  and a **🔄 sync** button (pull + push).
 
 ## Next
 

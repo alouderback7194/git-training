@@ -31,6 +31,18 @@ Because rebase **rewrites commits**, only rebase branches that are yours / not y
 shared, or coordinate with your team first. After rebasing a branch you already
 pushed, you'll need `git push --force-with-lease`.
 
+### In VS Code
+
+- **Command Palette:** `Git: Rebase Branch…` → choose the branch/ref to replay onto
+  (e.g. `origin/main`).
+- Conflicts open in the same **Merge Editor** as Lesson 07; resolve and stage them, and
+  VS Code continues the rebase (or use the **Continue** prompt it shows).
+- **Interactive rebase** (reorder/squash/edit commits) isn't built in — use the
+  **GitLens** Interactive Rebase editor, or `git rebase -i` on the CLI.
+- **Force-push after a rebase:** VS Code can force-push only if you enable the
+  `git.allowForcePush` setting; `git push --force-with-lease` on the CLI is the safer
+  habit.
+
 ## Exercise
 
 The demo branch `feature/rebase-me` was created from an *older* `main`, so `main` has

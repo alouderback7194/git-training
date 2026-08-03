@@ -69,5 +69,6 @@ against. The trainer's shared repo (`alouderback7194/git-training`) is optionall
 second remote named `upstream`, which you can pull updates from. `main` is the primary
 branch you integrate finished work into.
 
-Commands are shown for the command line; most can also be done from VS Code or the
-GitHub website, and we'll point those out along the way.
+Commands are shown for the command line, and every lesson also includes an **"In VS
+Code"** section with the equivalent Source Control panel / Command Palette steps — so
+you can follow along by typing or by clicking, whichever you prefer.

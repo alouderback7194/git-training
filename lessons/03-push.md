@@ -14,6 +14,15 @@ The first time you push a branch that GitHub has never seen, you must tell git w
 it goes with `-u origin <branch-name>`. The `-u` sets up *tracking* so that next time
 plain `git push` (and `git pull`) just works.
 
+### In VS Code
+
+- **First push of a new branch:** the Source Control panel shows a **Publish Branch**
+  button — click it and VS Code creates the branch on `origin` for you (no `-u` to
+  remember).
+- **After that:** click the **🔄 sync** icon in the status bar (bottom-left, next to
+  the branch name), or use the Source Control **`⋯` menu → Push**.
+- **Command Palette:** `Git: Push`, `Git: Publish Branch`.
+
 ## Exercise
 
 Continuing with the commit you made in Lesson 02:

@@ -26,6 +26,15 @@ reviewer.
 > **`YOUR-USERNAME/git-training`** so your PR stays inside your own copy. You want:
 > base repo = your fork, base = `main` ← compare = your feature branch.
 
+### In VS Code
+
+Install the **GitHub Pull Requests** extension (see Lesson 00), then:
+
+- **Command Palette:** `GitHub Pull Requests: Create Pull Request`.
+- Or click the **GitHub** icon in the Activity Bar → **Pull Requests** → **Create**.
+- The Create view has base and compare dropdowns — the same **fork gotcha** applies:
+  make sure the base is **your fork's `main`**, not the original repo's.
+
 ## Exercise
 
 We ship a ready-made branch, `feature/add-greeting`, that adds a personalized
