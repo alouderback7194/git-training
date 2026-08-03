@@ -10,5 +10,5 @@ export function reverse(text) {
 }
 
 export function titleCase(text) {
-  return text.split(" ").map(w => w.charAt(0).toUpperCase() + w.slice(1));
+  return text.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1));
 }
