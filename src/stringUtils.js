@@ -8,3 +8,7 @@ export function capitalize(text) {
 export function reverse(text) {
   return text.split("").reverse().join("");
 }
+
+export function titleCase(text) {
+  return text.split(" ").map(w => w.charAt(0).toUpperCase() + w.slice(1));
+}
