@@ -29,8 +29,9 @@ Continuing with the commit you made in Lesson 02:
    git commit -m "Tweak shout() to trim whitespace"
    git push
    ```
-4. Refresh the branch on GitHub (`https://github.com/nptrust/git-training/branches`)
-   and confirm your commits are there.
+4. Refresh the branch on **your fork** on GitHub
+   (`https://github.com/YOUR-USERNAME/git-training/branches`) and confirm your commits
+   are there.
 
 > **Concept.** A commit that isn't pushed exists only on your laptop. Pushing early
 > and often protects your work and lets teammates collaborate.

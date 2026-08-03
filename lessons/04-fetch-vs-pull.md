@@ -49,6 +49,22 @@ git pull                      # integrate when you're ready
    ```
 4. Run it again — notice "Already up to date." because pull already fetched + merged.
 
+## In a fork setup: pulling from `upstream`
+
+Your `origin` is your own fork, so it only changes when *you* push. To pull in updates
+the trainer makes to the original repo, use the `upstream` remote you added in
+Lesson 00:
+
+```bash
+git fetch upstream                 # safe look at what changed upstream
+git switch main
+git merge upstream/main            # or: git pull upstream main
+git push                           # update your fork's main too
+```
+
+This is the real-world version of "getting everyone else's changes": `fetch`/`pull`
+from `upstream`, then `push` to `origin`.
+
 ## Next
 
 ➡️ [Lesson 05 – Making a Pull Request](05-pull-request.md)

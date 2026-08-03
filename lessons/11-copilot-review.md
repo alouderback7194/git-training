@@ -32,7 +32,8 @@ missing edge case, a subtle bug, and a naming nit — perfect fodder for a revie
    git switch feature/copilot-review
    git push -u origin feature/copilot-review
    ```
-   Open a PR: base `main` ← compare `feature/copilot-review`.
+   Open a PR: base `main` ← compare `feature/copilot-review`. (As in Lesson 05, make
+   sure the **base repository** is your own fork.)
 2. Add **Copilot** as a reviewer (Reviewers box).
 3. Wait for Copilot's comments, then discuss as a group:
    - Which issues did it catch? (Look for the divide-by-zero gap and the `average`

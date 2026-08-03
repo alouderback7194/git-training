@@ -34,7 +34,8 @@ build one small feature (a `titleCase` helper).
    git log --oneline main..feature/squash-me
    ```
    You'll see commits like *"wip"*, *"fix typo"*, *"actually fix it"* — noise.
-2. Push it and open a PR (base `main` ← compare `feature/squash-me`):
+2. Push it and open a PR (base `main` ← compare `feature/squash-me`). Remember the
+   fork gotcha from Lesson 05: set the **base repository** to your own fork.
    ```bash
    git push -u origin feature/squash-me
    ```

@@ -20,6 +20,12 @@ Or go to the **Pull requests** tab → **New pull request** → pick your branch
 Give it a clear **title** and a **description**: what changed and why. Request a
 reviewer.
 
+> ⚠️ **Fork gotcha — set the base repository to *your* fork.** When you open a PR from
+> a fork, GitHub often defaults the **base repository** to the original
+> (`nptrust/git-training`). Change the **base repository** dropdown to
+> **`YOUR-USERNAME/git-training`** so your PR stays inside your own copy. You want:
+> base repo = your fork, base = `main` ← compare = your feature branch.
+
 ## Exercise
 
 We ship a ready-made branch, `feature/add-greeting`, that adds a personalized

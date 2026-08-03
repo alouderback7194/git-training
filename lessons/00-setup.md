@@ -1,15 +1,32 @@
 # Lesson 00 – Setup
 
-Before the exercises, make sure your machine is ready.
+Before the exercises, make sure your machine is ready **and grab your own copy of the
+repo by forking it.**
 
-## 1. Install the tools
+## 1. Prerequisites
 
 - **Git** — check with `git --version`. If missing, install from <https://git-scm.com/downloads>.
-- **A GitHub account** — you'll need access to the `nptrust/git-training` repo.
+- **A GitHub account** — you'll need one to fork the repo in the next step.
 - **VS Code** (recommended) with the **GitHub Copilot** extension for Lesson 11.
 - **Node.js 18+** (optional) — only needed if you want to run the sample app (`npm start`).
 
-## 2. Tell git who you are
+## 2. Fork the repository (your Step 0!)
+
+A **fork** is your own personal copy of a repository under your GitHub account. You can
+push, branch, merge, and make PRs in your fork without touching anyone else's work —
+perfect for a training sandbox.
+
+1. Go to <https://github.com/nptrust/git-training>.
+2. Click **Fork** (top-right) → **Create fork**.
+3. GitHub creates **`YOUR-USERNAME/git-training`** — a full copy, including all the
+   demo branches you'll use in later lessons.
+
+> **Concept — fork vs. clone vs. branch.** A **fork** is a server-side copy on GitHub
+> under *your* account. A **clone** is a copy on *your computer*. A **branch** is a
+> line of work *inside* a repo. In this training you'll fork once, clone once, and
+> make many branches.
+
+## 3. Tell git who you are
 
 These values are stamped onto every commit you make. Set them once:
 
@@ -18,16 +35,31 @@ git config --global user.name "Your Name"
 git config --global user.email "you@nptrust.org"
 ```
 
-## 3. Clone the repository
+## 4. Clone YOUR fork
 
-Cloning downloads the whole repo (all branches and history) to your computer.
+Clone the fork you just created (not the original). Replace `YOUR-USERNAME`:
 
 ```bash
-git clone https://github.com/nptrust/git-training.git
+git clone https://github.com/YOUR-USERNAME/git-training.git
 cd git-training
 ```
 
-## 4. Look around
+> **Tip.** The exact URL is on your fork's page under the green **Code** button.
+
+## 5. (Optional) Connect to the original repo as `upstream`
+
+Your fork's remote is called `origin`. If you also want to pull in updates that the
+trainer makes to the original repo, add it as a second remote named `upstream`:
+
+```bash
+git remote add upstream https://github.com/nptrust/git-training.git
+git remote -v          # origin = your fork, upstream = the original
+```
+
+- **`origin`** — your fork. You **push** here.
+- **`upstream`** — the shared original. You **pull** updates from here (see Lesson 04).
+
+## 6. Look around
 
 ```bash
 git status            # what branch am I on? any changes?
@@ -35,10 +67,6 @@ git branch            # list local branches
 git branch -r         # list remote branches (the demo branches live here)
 git log --oneline -5  # recent history
 ```
-
-> **Concept — local vs. remote.** After cloning you have a *local* copy. The GitHub
-> copy is the *remote*, nicknamed `origin`. Almost every git command is you moving
-> commits between these two places.
 
 ## Next
 
